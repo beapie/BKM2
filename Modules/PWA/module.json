@@ -1,0 +1,14 @@
+{
+    "name": "PWA",
+    "alias": "PWA",
+    "description": "",
+    "keywords": [],
+    "priority": 710,
+    "version":1.0,
+    "providers": [
+        "Modules\\PWA\\Providers\\PWAServiceProvider",
+        "Modules\\PWA\\Providers\\BusinessMenuComposer",
+        "Modules\\PWA\\Providers\\BusinessMenuTabComposer"
+    ],
+    "files": []
+}

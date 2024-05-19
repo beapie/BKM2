@@ -1,0 +1,12 @@
+{
+    "name": "WhatsAppMessenger",
+    "alias": "WhatsApp Messenger",
+    "description": "",
+    "keywords": [],
+    "priority": 1210,
+    "version":1.0,
+    "providers": [
+        "Modules\\WhatsAppMessenger\\Providers\\WhatsAppMessengerServiceProvider"
+    ],
+    "files": []
+}

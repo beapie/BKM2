@@ -1,0 +1,78 @@
+
+
+
+  /************ modal-dialog css  ********/
+
+  .custom-control{
+    gap: 10px;
+  }
+  .custom-control .service-checkbox{
+    width: 25px;
+    height: 25px;
+  }
+  .flexible-wrapper {
+    height: 100%;
+    max-width: 270px;
+    width: 100%;
+    margin: 0 0 0 auto;
+    border-radius: 5px;
+    justify-content: space-between;
+
+  }
+  .flexible-wrapper form{
+    display: flex;
+
+  }
+
+  .flexible-wrapper a{
+    border-radius: 5px 0 0 5px;
+    padding: 5px 10px;
+    width: 100%;
+  }
+  .flexible-wrapper form .show_confirm{
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .flexible_card {
+    box-shadow: none;
+    margin-bottom: 0;
+  }
+  .flexible_button_text{
+        gap: 20px;
+    background: #e9ecef;
+    padding: 10px 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+  }
+  .form-check-inline{
+    display: flex;
+    gap: 20px;
+  }
+  .flexible_days{
+    display: flex !important;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5px;
+  }
+  .custom-control .service-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media screen and (max-width:767px) {
+    .custom-control .service-checkbox {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media screen and (max-width:575px) {
+    .flexible_button_text{
+      flex-direction: column;
+      gap: 10px;
+    }
+    .form-check-inline{
+      gap: 10px;
+    }
+  }

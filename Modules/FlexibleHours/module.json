@@ -1,0 +1,13 @@
+{
+    "name": "FlexibleHours",
+    "alias": "Flexible Hours",
+    "description": "",
+    "keywords": [],
+    "priority": 580,
+    "version":1.0,
+    "providers": [
+        "Modules\\FlexibleHours\\Providers\\FlexibleHoursServiceProvider",
+        "Modules\\FlexibleHours\\Providers\\FlexiblePrice"
+    ],
+    "files": []
+}

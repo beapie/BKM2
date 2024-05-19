@@ -1,0 +1,195 @@
+.datepicker-orient-bottom{
+    display: block !important;
+    position: absolute !important;
+   }
+   .dropdown-menu {
+       position: absolute;
+       top: 100%;
+       left: 0;
+       z-index: 1000;
+       display: none;
+       float: left;
+       min-width: 10rem;
+       padding: 0.5rem 0;
+       margin: 0.125rem 0 0;
+       font-size: 1rem;
+       color: #212529;
+       text-align: left;
+       list-style: none;
+       background-color: #fff;
+       background-clip: padding-box;
+       border: 1px solid rgba(0,0,0,.15);
+       border-radius: 0.25rem;
+   }
+   .datepicker {
+       padding: 4px;
+       -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+       border-radius: 4px;
+       direction: ltr;
+   }
+
+   /* error box css start */
+
+    .alert {
+    padding: 10px 15px;
+    gap: 10px;
+    margin-bottom: 15px;
+    }
+    .alert.alert-danger {
+    background-color: #f8d7da;
+    color: #842029;
+    }
+
+    .d-none{
+        display: none;
+    }
+   /* error box css end */
+
+   /* final step msg */
+   .appointment-forms .final_step .appointment-wrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .appointment-forms .final_step .form-group,
+   .appointment-forms .final_step .form-group label {
+    margin: 0;
+   }
+
+   .appointment-forms .final_step .form-group span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+
+   .appointment-forms .final_step .form-group span svg {
+    height: 20px;
+    width: 20px;
+   }
+
+   .appointment-forms .final_step .form-group span svg path {
+    fill: var(--white);
+   }
+
+   .appointment-forms .final_step .form-group span {
+    background: var(--theme-color);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 10px;
+   }
+  /* final step msg end*/
+
+
+
+.form-one .appointment-wrp .form-group .chose-files {
+    background-color: var(--theme-color);
+    border-radius: 15px;
+    color: var(--white);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.chose-files input{
+    font-size: 0px;
+    border: 0;  
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+}
+.form-one .appointment-wrp .form-group .chose-files span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    color: white;
+}
+
+.form-one .appointment-wrp .form-group .chose-files input::-webkit-file-upload-button {
+    display: none;
+}
+
+.form-one .appointment-forms {
+    height: 100%;
+}
+
+/* FlexibleHours Module CSS For Flexible slot */
+.appointment-sec  .checkbox-custom .timeslot-flexible {
+    border-color:var(--black) !important;
+}
+.appointment-sec  .checkbox-custom .timeslot-flexible  span{
+    font-weight: 600 !important;
+}
+/* FlexibleHours Module CSS End */
+
+/* ---------25-4-2024------ */
+.finle-step-btn{
+    justify-content: space-between !important;
+}
+
+/* business theme toaster add start */
+.toast {
+    background-color: #ff3a6e;
+    padding: 12px;
+    color: var(--white);
+    border-radius: 5px;
+}
+.toast.bg-primary{
+    background-color: #0CAF60 ;
+}
+.toast .d-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.position-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 16px !important;
+    max-width: 350px;
+    width: 100%;
+}
+.btn-close {
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    padding: 4;
+    color: #000000;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 16 16'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    border: 0;
+    border-radius: 10px;
+    opacity: 0.5;
+    filter: invert(1) grayscale(100%) brightness(200%);
+    margin: 0 0 0 auto;
+}
+
+.toast.showing {
+    opacity: 0;
+}
+
+.toast:not(.show) {
+    display: none;
+}
+.toast-body{
+    font-size: 14px;
+}
+
+/* business theme toaster add end */
+.finle-step-btn .step-btn-wrapper{
+    display: inline-block;
+    margin-left: auto;
+}
+
+
+@media only screen and (max-width: 575px) {
+    .finle-step-btn .step-btn-wrapper{
+        width: 100%;
+        margin-left: 0;
+    }
+    .appointment_info_details p {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+}

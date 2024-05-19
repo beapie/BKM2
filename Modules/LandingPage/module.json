@@ -1,0 +1,15 @@
+{
+    "name": "LandingPage",
+    "alias": "cms",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "version":1.0,
+    "providers": [
+        "Modules\\LandingPage\\Providers\\LandingPageServiceProvider",
+        "Modules\\LandingPage\\Providers\\custompagebutton"
+    ],
+    "files": [],
+    "display": false
+
+}

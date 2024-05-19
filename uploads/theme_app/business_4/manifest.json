@@ -1,0 +1,57 @@
+{
+                                "lang": "en",
+                                "name": "123",
+                                "short_name": "123",
+                                "start_url": "https://bookme2.app/appointments/workdotest",
+                                "display": "standalone",
+                                "background_color": "#000000",
+                                "theme_color": "#000000",
+                                "orientation": "portrait",
+                                "categories": [
+                                    "shopping"
+                                ],
+                                "icons": [
+                                    {
+                                        "src": "https://bookme2.app/uploads/logo/favicon.png",
+                                        "sizes": "320x320",
+                                        "type": "image/png",
+                                        "purpose": "any"
+                                    },
+                                    {
+                                        "src": "https://bookme2.app/uploads/logo/favicon.png",
+                                        "sizes": "320x320",
+                                        "type": "image/png",
+                                        "purpose": "any"
+                                    },
+                                    {
+                                        "src": "https://bookme2.app/uploads/logo/favicon.png",
+                                        "sizes": "152x152",
+                                        "type": "image/png",
+                                        "purpose": "any"
+                                    },
+                                    {
+                                        "src": "https://bookme2.app/uploads/logo/favicon.png",
+                                        "sizes": "192x192",
+                                        "type": "image/png",
+                                        "purpose": "any"
+                                    },
+                                    {
+                                        "src": "https://bookme2.app/uploads/logo/favicon.png",
+                                        "sizes": "256x256",
+                                        "type": "image/png",
+                                        "purpose": "any"
+                                    },
+                                    {
+                                        "src": "https://bookme2.app/uploads/logo/favicon.png",
+                                        "sizes": "512x512",
+                                        "type": "image/png",
+                                        "purpose": "any"
+                                    },
+                                    {
+                                        "src": "https://bookme2.app/uploads/logo/favicon.png",
+                                        "sizes": "1024x1024",
+                                        "type": "image/png",
+                                        "purpose": "any"
+                                    }
+                                ]
+                            }

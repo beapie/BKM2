@@ -1,0 +1,13 @@
+{
+    "name": "Photography",
+    "alias": "photography",
+    "description": "Theme Addon",
+    "keywords": [],
+    "priority": 40,
+    "version":1.0,
+    "providers": [
+        "Modules\\Photography\\Providers\\PhotographyServiceProvider",
+        "Modules\\Photography\\Providers\\ViewComposer"
+    ],
+    "files": []
+}

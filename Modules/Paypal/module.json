@@ -1,0 +1,14 @@
+{
+    "name": "Paypal",
+    "alias": "paypal",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "version":1.0,
+    "providers": [
+        "Modules\\Paypal\\Providers\\PaypalServiceProvider",
+        "Modules\\Paypal\\Providers\\ViewComposer",
+        "Modules\\Paypal\\Providers\\PaymentComposer"
+    ],
+    "files": []
+}

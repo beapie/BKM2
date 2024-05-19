@@ -1,0 +1,173 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+html, body, .error {
+    height: 100%;
+    width: 100%;
+} 
+
+.dedicated-themes-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7FFFF
+}
+.dedicated-themes-section .section-title h1 {
+    font-size: 120px;
+    margin: 0 0 30px;
+    color: #008B62;
+    text-shadow: 
+      1px 1px 1px #00593E,    
+      2px 2px 1px #00593E,
+      3px 3px 1px #00593E,
+      4px 4px 1px #00593E,
+      5px 5px 1px #00593E,
+      6px 6px 1px #00593E,
+      7px 7px 1px #00593E,
+      8px 8px 1px #00593E,
+      25px 25px 8px rgba(0,0,0, 0.2);
+}
+.dedicated-themes-section .section-title {
+    text-align: center;
+}
+.dedicated-themes-section .section-title p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* file upload css start */
+.chose-files input[type=file]::-webkit-file-upload-button {
+    display: none;
+  }
+.chose-files {
+    background-color: var(--theme-color);
+    border-radius: 15px;
+    color: var(--white);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.chose-files > span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    color: white;
+}
+/* file upload css end */
+
+/* footer bottom icon css start */
+.site-footer .footer-social-icon a i {
+    color: var(--black);
+    transition: all 500ms ease-in-out 0s;
+}
+.site-footer .footer-social-icon a:hover i {
+    color: var(--white);
+}
+
+/* footer bottom icon css end */
+
+.swiper-wrapper{
+    height: auto;
+}
+.tab-content.active {
+    height: auto !important;
+}
+#final_step .appointment-wrp .form-group span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#final_step .appointment-wrp .form-group label {
+    margin-bottom: 0;
+}  
+
+/* business theme toaster add start */
+.toast {
+    background-color: #ff3a6e;
+    padding: 12px;
+    color: var(--white);
+    border-radius: 5px;
+}
+.toast.bg-primary{
+    background-color: #0CAF60 ;
+}
+.toast .d-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.position-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 16px !important;
+    max-width: 350px;
+    width: 100%;
+}
+.btn-close {
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    padding: 4;
+    color: #000000;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 16 16'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    border: 0;
+    border-radius: 10px;
+    opacity: 0.5;
+    filter: invert(1) grayscale(100%) brightness(200%);
+    margin: 0 0 0 auto;
+}
+
+.toast.showing {
+    opacity: 0;
+}
+
+.toast:not(.show) {
+    display: none;
+}
+.toast-body{
+    font-size: 14px;
+}
+
+/* business theme toaster add end */
+
+/* FlexibleHours Module CSS For Flexible slot */
+.appointment-sec  .checkbox-custom .timeslot-flexible {
+    border-color:var(--black) !important;
+}
+.appointment-sec  .checkbox-custom .timeslot-flexible  span{
+    font-weight: 600 !important;
+}
+/* FlexibleHours Module CSS End */
+
+/* --- Appointment price details start --- */
+.payment-method-form h3{
+    margin-bottom: 15px;
+}
+.finle-step-btn .step-btn-wrapper{
+    display: inline-block;
+    margin-left: auto;
+}
+
+
+@media only screen and (max-width: 575px) {
+    .finle-step-btn .step-btn-wrapper{
+        width: 100%;
+        margin-left: 0;
+    }
+    .appointment_info_details p {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+}
+/* --- Appointment price details end --- */

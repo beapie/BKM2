@@ -1,0 +1,14 @@
+{
+    "name": "Stripe",
+    "alias": "stripe",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "version": 1.0,
+    "providers": [
+        "Modules\\Stripe\\Providers\\StripeServiceProvider",
+        "Modules\\Stripe\\Providers\\ViewComposer",
+        "Modules\\Stripe\\Providers\\PaymentComposer"
+    ],
+    "files": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "AppointmentReview",
+    "alias": "Appointment Review",
+    "description": "",
+    "keywords": [],
+    "priority": 650,
+    "version":1.0,
+    "providers": [
+        "Modules\\AppointmentReview\\Providers\\AppointmentReviewServiceProvider"
+    ],
+    "files": []
+}
+
+

@@ -1,0 +1,14 @@
+{
+    "name": "PromoCodes",
+    "alias": "Promo Codes",
+    "description": "",
+    "keywords": [],
+    "priority": 550,
+    "version":1.0,
+    "providers": [
+        "Modules\\PromoCodes\\Providers\\PromoCodesServiceProvider",
+        "Modules\\PromoCodes\\Providers\\PromoCodeService",
+        "Modules\\PromoCodes\\Providers\\EventServiceProvider"
+    ],
+    "files": []
+}

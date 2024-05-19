@@ -1,0 +1,13 @@
+{
+    "name": "CarService",
+    "alias": "carservice",
+    "description": "Theme Addon",
+    "keywords": [],
+    "priority": 50,
+    "version": 1.0,
+    "providers": [
+        "Modules\\CarService\\Providers\\CarServiceServiceProvider",
+        "Modules\\CarService\\Providers\\ViewComposer"
+    ],
+    "files": []
+}

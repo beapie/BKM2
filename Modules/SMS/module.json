@@ -1,0 +1,13 @@
+{
+    "name": "SMS",
+    "alias": "SMS",
+    "description": "",
+    "keywords": [],
+    "priority": 800,
+    "version":1.0,
+    "providers": [
+        "Modules\\SMS\\Providers\\SMSServiceProvider",
+        "Modules\\SMS\\Providers\\EventServiceProvider"
+    ],
+    "files": []
+}

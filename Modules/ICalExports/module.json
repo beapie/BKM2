@@ -1,0 +1,13 @@
+{
+    "name": "ICalExports",
+    "alias": "iCal Exports",
+    "description": "",
+    "keywords": [],
+    "priority": 500,
+    "version":1.0,
+    "providers": [
+        "Modules\\ICalExports\\Providers\\ICalExportsServiceProvider",
+        "Modules\\ICalExports\\Providers\\ViewComposer"
+    ],
+    "files": []
+}
